@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Delight;
+    src: url("assets/fonts/Delight-Bold.woff2") format("woff2");
+    font-weight: 800;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url("assets/fonts/Manrope-VariableFont_wght.woff2") format("woff2");
+    font-display: swap
+}
+
+.studiobook-admin h1 {
+    margin-bottom: 1.5rem
+}
+
+.booking-status {
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: .8rem;
+    font-weight: 600
+}
+
+.status-ok {
+    background: rgba(40, 167, 69, .15);
+    color: #28a745
+}
+
+.status-pending {
+    background: rgba(85, 62, 255, .1);
+    color: rgb(58.6621761658, 35.4, 230.6)
+}
